@@ -1,5 +1,5 @@
 # Environment
-https://www.cnblogs.com/YangyaoCHEN/p/8189290.html 
+gsl install reference: https://www.cnblogs.com/YangyaoCHEN/p/8189290.html 
 ```
 sudo ./configure --prefix=/usr/local
 sudo make
@@ -13,6 +13,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 # Compilation
 //gcc -o test_ransac_tdoa main.c -lm -lgsl -lgslcblas
+
 gcc -o test_ransac_tdoa main.c -lm
 
 # Runing
